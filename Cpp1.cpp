@@ -4,6 +4,6 @@ const int a = 5;
 int main()
 {
 	cout<<a;
-	cout<<"hh";
+	cout<<"hhhh";
 	return 0;
 }
