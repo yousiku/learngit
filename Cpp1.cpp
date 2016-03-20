@@ -12,5 +12,10 @@ int main()
 	printf("%s\n",str);
 	printf("%c\n",str[1]);
 	printf("%c\n",str[2]);
+	char d[]="123";
+	char s[]="123456789";
+	//char d[]="123";
+	strcpy(d,s);
+	printf("%s\n%s\n",d,s);
 	return 0;
 }
