@@ -1,9 +1,10 @@
 #include<iostream>
-using namespace std;
-const int a = 5;
 int main()
 {
-	cout<<a;
-	cout<<"hh";
+	int a=5,b=3;
+	a=a^b;
+	b=a^b;
+	a=a^b;
+	std::cout<<a<<b;
 	return 0;
 }
